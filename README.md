@@ -10,25 +10,29 @@ The thesis used proprietary data from a Bloomberg Terminal, and can therefore no
 
 This plot shows the upper and lower tail dependence of the Gaussian copula and the double $t$ copula for $\rho =0.5$. The axes show the extreme quantiles of the $[0,1]$ variables. For each copula, 10,000,000 samples were generated.
 
-![Loss distribution](Loss%20Distribution_for_rho.png)
+**Figure 2: Loss distribution**
+<img src="Loss%20Distribution_for_rho.png" width="650">
 
 This plot shows the probability distribution of the number of defaults for both the Gaussian copula model and the double $t$ copula model for different values of $\rho$ at maturity $T=5$. It also indicates the number of defaults needed for each tranche to be wiped out.
 
-![Tranche upfronts](Tranche_Upfronts_for_Rho.png)
+**Figure 3: Tranche Upfronts**
+<img src="Tranche_Upfronts_for_Rho.png" width="650">
 
 This plot shows the fair tranche upfronts for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model.
 
-![Tranche spreads](Tranche_Spreads_for_Rho.png)
+**Figure 4: Tranche Spreads**
+<img src="Tranche_Spreads_for_Rho" width="650">
 
-This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model.
+This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model. Spreads are capped at 100 bps.
 
-![Compound correlation](Compound_Correlation.png)
+**Figure 4: Compound Correlation**
+<img src="Compound_Correlation.png" width="650">
 
 This plot shows the compound correlation calculated for different tranches using a Gaussian copula model and a double $t$ copula model for iTraxx S42 5Y tranches on June 20, 2025.
 
 ## Key Findings
- - Range of compound correlation was 0.48 for $t$ copula compared to 0.76 for Gaussian copula across tranches, implying a better fit of the $t$ copula.
- - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails because of tail dependence. This causes higher probability of both very few (but non-zero) and very many defaults. The higher probability makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads/upfronts.
+ - Range of compound correlation was 0.48 for $t$ copula compared to 0.76 for Gaussian copula across tranches, $t$ copula flattens the correlation smile but doesn't remove it.
+ - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails because of tail dependence. This causes higher probability of both very few (but non-zero) and very many defaults. The higher probability makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads/upfronts. Conversely, the mezzanine tranches become less risky and therefore has decreased upfronts/spreads for $t$ copula.
 
 ## Gaussian Copula Model
 Homogeneous Gaussian copula with Gauss-Hermite integration. The payment legs are split into:

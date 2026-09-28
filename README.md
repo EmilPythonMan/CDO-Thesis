@@ -5,7 +5,8 @@ Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf).
 The thesis used proprietary data from a Bloomberg Terminal, and can therefore not be shared.
 
 ## Results
-![Tail dependence](Tail%20Dependence%20rho%3D0.5.png)
+**Figure 1: Tail dependence**
+<img src="Tail%20Dependence%20rho%3D0.5.png" width="650">
 
 This plot shows the upper and lower tail dependence of the Gaussian copula and the double $t$ copula for $\rho =0.5$. The axes show the extreme quantiles of the $[0,1]$ variables. For each copula, 10,000,000 samples were generated.
 
@@ -30,10 +31,16 @@ This plot shows the compound correlation calculated for different tranches using
  - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails because of tail dependence. This causes higher probability of both very few (but non-zero) and very many defaults. The higher probability makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads/upfronts.
 
 ## Gaussian Copula Model
-CDO pricing model following homogeneous Gaussian copula logic and Gauss-Hermite integration. Separates the payment legs into three parts: Expected Tranche Principal, Expected Regular Spread Payments, Expected Accrual Payments. 
-Given an upfront, spread, and lower and upper tranche bounds, the model can find the compound correlations and base correlations for tranches.
-The model can also find upfront and spread for a given compound correlation and lower and upper tranche bounds.
-Portfolio size, recovery rate, and integration points for Gauss-Hermite can all be modified when initializing the class.
+Homogeneous Gaussian copula with Gauss-Hermite integration. The payment legs are split into:
+- Expected tranche principal
+- Expected regular spread payments
+- Expected accrual payments
+
+**Capabilities**
+- Solve for compound and base correlation, given upfront, spread and tranche bounds
+- Compute upfront and spread, given a compound correlation and tranche bounds
+
+**Configurable at initialization:** portfolio size, recovery rate, number of integration points
 
 
 ## $t$ Copula Model

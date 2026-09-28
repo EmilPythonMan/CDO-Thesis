@@ -10,7 +10,8 @@ Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf)
 ![Compound correlation](Compound_Correlation.png)
 
 # Key Findings
-Range of 
+Range of compound correlation was 0.48 for t-copula compared to 0.76 for Gaussian copula.
+Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails, increasing the probability of high and low amounts of defaults. This makes the equity and senior tranches more risky in the t-copula leading to higher fair spreads.
 
 # GAUSSIAN COPULA:
 CDO pricing model following homogeneous Gaussian copula logic and Gauss-Hermite integration. Separates the payment legs into three parts: Expected Tranche Principal, Expected Regular Spread Payments, Expected Accrual Payments. 

@@ -7,7 +7,7 @@ Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf)
 ![Tail dependence](Tail%20Dependence%20rho%3D0.5.png)
 ![Loss distribution](Loss%20Distribution_for_rho.png)
 ![Tranche upfronts](Tranche_Upfronts_for_Rho.png)
-![Compound correlation[(Compound_Correlation.png)
+![Compound correlation](Compound_Correlation.png)
 
 # Key Findings
 Range of 

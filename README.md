@@ -39,5 +39,10 @@ Possesses the same capabilities as the Gaussian Copula, only the engine to gener
 
 
 ## Limitations
-Both models are hardcoded to market data format. 
+Both models are hardcoded to market data format: 
 Maturities are fixed at 5 years.
+CDS spread delta is fixed at 1/2 year.
+CDO spread delta is fixed at 1/4 year.
+ZCB prices with maturities from (0,5] years with 8 rates per year were used.
+CDO tranche spreads and upfronts of iTraxx Europe Index S42 were used.
+CDS Index spreads of iTraxx Europe Index S33-S42 were used to estimate implied cumulative default probabilities.

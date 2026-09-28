@@ -25,7 +25,7 @@ This plot shows the fair tranche upfronts for different values of $\rho$ for bot
 
 **Figure 4: Tranche Spreads**
 
-<img src="Tranche_Spreads_for_Rho" width="650">
+<img src="Tranche_Spreads_for_Rho.png" width="650">
 
 This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model. Spreads are capped at 100 bps.
 

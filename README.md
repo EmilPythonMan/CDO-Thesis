@@ -19,8 +19,8 @@ This plot shows the fair tranche spreads for different values of $\rho$ for both
 This plot shows the compound correlation calculated for different tranches using a Gaussian copula model and a double $t$ copula model for iTraxx S42 5Y tranches on June 20, 2025.
 
 ## Key Findings
- - Range of compound correlation was 0.48 for $t$-copula compared to 0.76 for Gaussian copula across tranches, implying a better fit of the $t$-copula.
- - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails, Higher probability of both very few (but non-zero) and very many defaults. This makes the equity and senior tranches more risky in the $t$-copula leading to higher fair spreads.
+ - Range of compound correlation was 0.48 for $t$ copula compared to 0.76 for Gaussian copula across tranches, implying a better fit of the $t$ copula.
+ - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails, Higher probability of both very few (but non-zero) and very many defaults. This makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads.
 
 ## Gaussian Copula Model:
 CDO pricing model following homogeneous Gaussian copula logic and Gauss-Hermite integration. Separates the payment legs into three parts: Expected Tranche Principal, Expected Regular Spread Payments, Expected Accrual Payments. 
@@ -29,8 +29,8 @@ The model can also find upfront and spread for a given compound correlation and 
 Portfolio size, recovery rate, and integration points for Gauss-Hermite can all be modified when initializing the class.
 
 
-## $t$-Copula Model:
-Expansion of the Gaussian Copula, where the systematic and idiosyncratic factors are instead $t$-distributed with $\nu$ degrees of freedom.
+## $t$ Copula Model:
+Expansion of the Gaussian Copula, where the systematic and idiosyncratic factors are instead $t$ distributed with $\nu$ degrees of freedom.
 This necessitates the use of characteristic functions and adaptive quadrature to integrate over the systematic factors.
 Possesses the same capabilities as the Gaussian Copula, only the engine to generate results and  the underlying assumption is altered.
 

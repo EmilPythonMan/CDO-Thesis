@@ -6,26 +6,31 @@ The thesis used proprietary data from a Bloomberg Terminal, and can therefore no
 
 ## Results
 **Figure 1: Tail dependence**
+
 <img src="Tail%20Dependence%20rho%3D0.5.png" width="650">
 
 This plot shows the upper and lower tail dependence of the Gaussian copula and the double $t$ copula for $\rho =0.5$. The axes show the extreme quantiles of the $[0,1]$ variables. For each copula, 10,000,000 samples were generated.
 
 **Figure 2: Loss distribution**
+
 <img src="Loss%20Distribution_for_rho.png" width="650">
 
 This plot shows the probability distribution of the number of defaults for both the Gaussian copula model and the double $t$ copula model for different values of $\rho$ at maturity $T=5$. It also indicates the number of defaults needed for each tranche to be wiped out.
 
 **Figure 3: Tranche Upfronts**
+
 <img src="Tranche_Upfronts_for_Rho.png" width="650">
 
 This plot shows the fair tranche upfronts for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model.
 
 **Figure 4: Tranche Spreads**
+
 <img src="Tranche_Spreads_for_Rho" width="650">
 
 This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model. Spreads are capped at 100 bps.
 
 **Figure 4: Compound Correlation**
+
 <img src="Compound_Correlation.png" width="650">
 
 This plot shows the compound correlation calculated for different tranches using a Gaussian copula model and a double $t$ copula model for iTraxx S42 5Y tranches on June 20, 2025.

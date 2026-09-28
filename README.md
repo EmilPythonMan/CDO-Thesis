@@ -3,10 +3,13 @@ Python implementation of CDO tranche pricing under the one-factor Gaussian
 copula and the double t copula, developed for my MSc thesis at Copenhagen
 Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf)
 
-## Results
+# Results
 ![Tail dependence](Tail%20Dependence%20rho%3D0.5.png)
 ![Loss distribution](Loss%20Distribution_for_rho.png)
 ![Tranche upfronts](Tranche_Upfronts_for_Rho.png)
+
+# Key Findings
+
 
 # GAUSSIAN COPULA:
 CDO pricing model following homogeneous Gaussian copula logic and Gauss-Hermite integration. Separates the payment legs into three parts: Expected Tranche Principal, Expected Regular Spread Payments, Expected Accrual Payments. 

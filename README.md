@@ -13,7 +13,10 @@ This plot shows the upper and lower tail dependence of the Gaussian copula and t
 This plot shows the probability distribution of the number of defaults for both the Gaussian copula model and the double $t$ copula model for different values of $\rho$ at maturity $T=5$. It also indicates the number of defaults needed for each tranche to be wiped out.
 ![Tranche upfronts](Tranche_Upfronts_for_Rho.png)
 
-This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t$ copula model.
+This plot shows the fair tranche upfronts for different values of $\rho$ for both the Gaussian copula model and the double \textit{t} copula model.
+![Tranche spreads](Tranche_Spreads_for_Rho.png)
+
+This plot shows the fair tranche spreads for different values of $\rho$ for both the Gaussian copula model and the double $t copula model.
 ![Compound correlation](Compound_Correlation.png)
 
 This plot shows the compound correlation calculated for different tranches using a Gaussian copula model and a double $t$ copula model for iTraxx S42 5Y tranches on June 20, 2025.

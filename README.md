@@ -1,7 +1,7 @@
 # CDO Pricing: Gaussian vs. Double $t$ Copula
 Python implementation of CDO tranche pricing under the one-factor Gaussian
 copula and the double $t$ copula, developed for my MSc thesis at Copenhagen
-Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf)
+Business School (grade 12/A). Full thesis: [CDO Thesis.pdf](CDO%20Thesis.pdf).
 The thesis used proprietary data from a Bloomberg Terminal, and can therefore not be shared.
 
 ## Results

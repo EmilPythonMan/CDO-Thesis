@@ -23,7 +23,7 @@ This plot shows the compound correlation calculated for different tranches using
 
 ## Key Findings
  - Range of compound correlation was 0.48 for $t$ copula compared to 0.76 for Gaussian copula across tranches, implying a better fit of the $t$ copula.
- - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails, Higher probability of both very few (but non-zero) and very many defaults. This makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads.
+ - Changing the underlying assumption of the systematic and idiosyncratic factors shifts the probability mass towards the tails because of tail dependence. This causes higher probability of both very few (but non-zero) and very many defaults. The higher probability makes the equity and senior tranches more risky in the $t$ copula leading to higher fair spreads/upfronts.
 
 ## Gaussian Copula Model:
 CDO pricing model following homogeneous Gaussian copula logic and Gauss-Hermite integration. Separates the payment legs into three parts: Expected Tranche Principal, Expected Regular Spread Payments, Expected Accrual Payments. 
